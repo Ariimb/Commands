@@ -17,7 +17,7 @@ Cmp: To compare two files.
 
 #Find files, folders and inside files.
 
-
+Find (route) "file name": To find a folder and file.
 
 #Create and edit text files.
 
