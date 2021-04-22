@@ -26,7 +26,7 @@ Nano "name of file": To create and edit text files.
 
 #Get the state of the computer.
 
-Git status: Check the status.
+lscpu: Check the state of the computer.
 
 # Git Commands
 
@@ -42,6 +42,30 @@ Git clone: Clone a project from a remote repository.
 
 #Basic workflow commands to stage and commit.
 
+git init: Command to initialize a new git repository or reinitialize an existing one.
+git add "name of file": Adds new or changed files in your working directory to the Git staging area.
+git commit: It saves all staged changes.
+git log: Review and read a history of everything that happens to a repository.
 
+#Push to a remote repository.
+
+git push -u "direction": Used to upload a local repository content to a remote repository.
+git remote: Used to manage your central servers for hosting your git repositories. 
+git status: See the status of the files. 
+
+#Branches.
+
+git checkout: It switches between branches in a repository. 
+git merge: Integrate changes from another branch.
+git branch: Create, list, rename, and delete branches.
+git branch -d: Remove merged branch.
+git config: Set git configuration values on a global or local project level.
+
+#Gitflow.
+
+git flow init: Initialize from a git repository.
+git add.: Add files in a folder.
+git flow hotfix (start/finish): Start or finish a new hotfix branch for hotfix branches.
+git flow support: To list a support branch. 
 
 
