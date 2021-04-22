@@ -31,11 +31,17 @@ Git status: Check the status.
 # Git Commands
 
 #Initial configuration
+
 Git config --global user.name "Your name": To configurate your name.
 Git config --global user.email "Your email": To configurate your email.
 
-Start
-Git init: Create a new repository
+#Start a project from zero or cloning an existin repository
+
+Git init "name of the project": Create a new repository.
+Git clone: Clone a project from a remote repository.
+
+#Basic workflow commands to stage and commit.
+
 
 
 
