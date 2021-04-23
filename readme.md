@@ -33,6 +33,11 @@ As an example, if you have multiple terminals going and you need to remember the
 
 Example: pwd [option(s)]
 
+echo: prints text to the terminal window and is typically used in shell scripts and batch files to output status text to the screen or a computer file.
+common options: -e, -n
+
+Example: echo [option(s)] [string(s)]
+
 #Navigate
 
 Cd "Repository name": To navigate in your repository.
