@@ -6,12 +6,50 @@ Commands are directives to the computer program to perform tasks.
 #Create and delete directories
 
 Mkdir "Directory name": Allows users to create or make new directories.
+If directories within a named path do not exist, an error will be generated. 
+To have CMShell automatically create non-existent directories in a path, be sure to include the -p or --parents option.
 
-rmdir "Directory name": Removes the directory from the system.
+Example usage: Example creation of a single directory using mkdir with the verbose -v option. [writingteam /]$ mkdir -v films mkdir: created directory `films'
+ 
+Example creation of nested directory structure. The -p option will create any folders that don't already exist. This example combines mkdir with the -p option.
+[writingteam /]$ mkdir -p /tv/shows/
+
+The “<OPTION>” variable displayed in the above example can be populated with any of the following options:
+
+Option Description -p, --parents If parent directories in the specified path do not exist, automatically generate them to accommodate (and do not generate an error). 
+
+-v, --verbose Display the operation’s execution step by step. 
+
+-h, --help Display help information for this command.
+
+rmdir "direction name": Removes the directory from the system.
 
 #Navigate
 
 Cd "Repository name": To navigate in your repository.
+
+The cd command, also known as chdir (change directory), is a command-line shell command used to change the current working directory in various operating systems. 
+It can be used in shell scripts and batch files.
+
+usage: If the user's current working directory is the home directory (~), then entering the command ls followed by cd games might produce the following transcript:
+
+user@wikipedia:~$ ls workreports games encyclopedia text.txt user@wikipedia:~$ cd games user@wikipedia:~/games$
+
+The user is now in the "games directory".
+
+Cd Options: 
+
+cd by itself or cd ~ will always put the user in their home directory.
+
+cd . will leave the user in the same directory they are currently in (i.e. the current directory won't change). 
+
+cd ~username will put the user in the username's home directory.
+
+cd dir (without a /) will put the user in a subdirectory
+
+cd .. will move the user up one directory.
+
+cd - will switch the user to the previous directory.
 
 Ls: Check the contents of your directory.
 
