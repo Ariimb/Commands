@@ -17,11 +17,11 @@ Ls: Check the contents of your directory.
 
 #Compare
 
-Cmp: To compare two files.
+Cmp: To compare two files. It tracks the differences between the changes made on a file.
 
 #Find files, folders and inside files.
 
-Find (route) "file name": To find a folder and file.
+Find (route) "file name": To find a folder and file, it allows you to view existed files.
 
 #Create and edit text files.
 
@@ -33,11 +33,15 @@ lscpu: Check the state of the computer.
 
 # Git Commands
 
+Commands used in git with their function and example.
+
 #Initial configuration
 
 Git config --global user.name "Your name": To configurate your name.
+Example: git config --global user.name "Ari Martinez"
 
 Git config --global user.email "Your email": To configurate your email.
+Example: git config --global user.email "ammb01@live.com.mx"
 
 #Start a project from zero or cloning an existin repository
 
@@ -45,15 +49,32 @@ Git init "name of the project": Create a new repository.
 
 The init command stands for initialize. 
 Once you run "git init", Git will initiaize a hidden directory called ".git" in the projects root directory.
+
 Git clone: Clone a project from a remote repository.
 
 #Basic workflow commands to stage and commit.
 
 git init: Command to initialize a new git repository or reinitialize an existing one.
 
+git status: The git status command is used to display the state of the repository and staging area.
+It allows us to see the tracked, untracked files and changes. 
+This command will not show any commit records or information.
+Example: Himanshu@himanshu-PC MINGW64 ~/desktop/NewDirectory (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
 git add "name of file": Adds new or changed files in your working directory to the Git staging area.
 
 git commit: It saves all staged changes.
+
+Important git commit options: -m <message> Sets the commit´s message.
+-a includes all currently changed files in this commit.
+--amend Rewrites the very last commit.
+
+Example: git commit -m: "change titles and styling on homepage"
+git commit -a -m "change titles and stylig on homepage"
+git commit --amend -m "New commit message"
 
 git log: Review and read a history of everything that happens to a repository.
 
