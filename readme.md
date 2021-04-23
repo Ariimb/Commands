@@ -22,7 +22,16 @@ Option Description -p, --parents If parent directories in the specified path do 
 
 -h, --help Display help information for this command.
 
-rmdir "direction name": Removes the directory from the system.
+rmdir "direction name": Removes the directory from the system. This can help clean up space on your computer and keep files and folders organized. 
+Common options: -p.
+
+mv: Move or remove directory. Without this command, you would have to individually rename each filw which is tedious.
+Common options: -i, -b.
+
+pwd: Its used to print the current directory you’re in. 
+As an example, if you have multiple terminals going and you need to remember the exact directory you’re working within, then pwd will tell you.
+
+Example: pwd [option(s)]
 
 #Navigate
 
@@ -64,6 +73,12 @@ Find (route) "file name": To find a folder and file, it allows you to view exist
 #Create and edit text files.
 
 Nano "name of file": To create and edit text files.
+
+cat: Read a file, create a file, and concatenate files. 
+Is one of the more versatile commands and serves three main functions: displaying them, combining copies of them, and creating new ones. 
+Common options: -n
+
+Example: cat [option(s)] [file_name(s)] [-] [file_name(s)]
 
 #Get the state of the computer.
 
