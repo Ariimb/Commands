@@ -1,6 +1,8 @@
 
 # Comand line
 
+Commands are directives to the computer program to perform tasks.
+
 #Create and delete directories
 
 Mkdir "Directory name": Allows users to create or make new directories.
@@ -41,6 +43,8 @@ Git config --global user.email "Your email": To configurate your email.
 
 Git init "name of the project": Create a new repository.
 
+The init command stands for initialize. 
+Once you run "git init", Git will initiaize a hidden directory called ".git" in the projects root directory.
 Git clone: Clone a project from a remote repository.
 
 #Basic workflow commands to stage and commit.
@@ -59,9 +63,12 @@ git push -u "direction": Used to upload a local repository content to a remote r
 
 git remote: Used to manage your central servers for hosting your git repositories. 
 
+After run the command "git init" you will run the command "git status".
 git status: See the status of the files. 
 
 #Branches.
+
+You can consider branches in Git as paths. Here are the different commands to check the branches.
 
 git checkout: It switches between branches in a repository. 
 
